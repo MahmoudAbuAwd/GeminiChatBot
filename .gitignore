@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+
+# Streamlit-specific
+.streamlit/secrets.toml
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs and local files
+*.log
+*.sqlite3
+*.db
+
+# Python test cache
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Package managers
+Pipfile.lock
+poetry.lock
